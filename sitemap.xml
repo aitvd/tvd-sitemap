@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- TVD static sitemap. Generated 2026-05-16 by SEO sprint. -->
+  <!-- TVD static sitemap. Generated 2026-05-27 by autonomous refresh. -->
   <!-- Workaround: GHL native sitemap.xml is empty because per-asset "Show in Sitemap" toggles are iframe-locked. -->
   <!-- This static sitemap is submitted to GSC directly, bypassing GHL's empty /sitemap.xml. -->
   <url>
     <loc>https://thevillagedentist.com/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/" />
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/about-us</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/about-us" />
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/services</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/services" />
@@ -29,7 +29,7 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/contact</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/contact" />
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/appointment</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/appointment" />
@@ -45,55 +45,263 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/blog</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/blog" />
   </url>
   <url>
+    <loc>https://thevillagedentist.com/post/cdcp-renewal-8-days-left-dentist-checklist-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp-renewal-8-days-left-dentist-checklist-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp-renewal-8-days-left-dentist-checklist-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/behind-on-cdcp-renewal-last-week-checklist-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/behind-on-cdcp-renewal-last-week-checklist-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/behind-on-cdcp-renewal-last-week-checklist-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/tiktok-teeth-filing-warning-toronto-dentist</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/tiktok-teeth-filing-warning-toronto-dentist" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/tiktok-teeth-filing-warning-toronto-dentist" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/dental-anxiety-toronto-fear-of-dentist-guide</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/dental-anxiety-toronto-fear-of-dentist-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/dental-anxiety-toronto-fear-of-dentist-guide" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/cdcp-renewal-2026-toronto-dentist-guide</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp-renewal-2026-toronto-dentist-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp-renewal-2026-toronto-dentist-guide" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/mouth-is-the-front-door-to-your-body-oral-systemic-health</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/mouth-is-the-front-door-to-your-body-oral-systemic-health" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/mouth-is-the-front-door-to-your-body-oral-systemic-health" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/cdcp-and-invisalign-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp-and-invisalign-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp-and-invisalign-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/babys-first-tooth-to-first-visit-toronto-parent-guide</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/babys-first-tooth-to-first-visit-toronto-parent-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/babys-first-tooth-to-first-visit-toronto-parent-guide" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/invisalign-finishing-cases-refinements-torque-guide</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/invisalign-finishing-cases-refinements-torque-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/invisalign-finishing-cases-refinements-torque-guide" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/cdcp-copayment-calculator-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp-copayment-calculator-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp-copayment-calculator-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/how-to-check-cdcp-status-msca-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/how-to-check-cdcp-status-msca-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/how-to-check-cdcp-status-msca-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/is-your-dentist-participating-cdcp-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/is-your-dentist-participating-cdcp-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/is-your-dentist-participating-cdcp-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/cdcp-across-canada-province-by-province-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp-across-canada-province-by-province-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp-across-canada-province-by-province-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/how-long-does-invisalign-take-toronto-timeline</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/how-long-does-invisalign-take-toronto-timeline" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/how-long-does-invisalign-take-toronto-timeline" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/does-cdcp-cover-dentures-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/does-cdcp-cover-dentures-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/does-cdcp-cover-dentures-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/cdcp-eligibility-do-you-qualify-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp-eligibility-do-you-qualify-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp-eligibility-do-you-qualify-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/how-to-apply-canadian-dental-care-plan-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/how-to-apply-canadian-dental-care-plan-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/how-to-apply-canadian-dental-care-plan-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/does-cdcp-cover-root-canals-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/does-cdcp-cover-root-canals-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/does-cdcp-cover-root-canals-2026" />
+  </url>
+  <url>
     <loc>https://thevillagedentist.com/post/who-is-invisalign-for-baby-point-toronto</loc>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/who-is-invisalign-for-baby-point-toronto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/who-is-invisalign-for-baby-point-toronto" />
   </url>
   <url>
+    <loc>https://thevillagedentist.com/post/does-cdcp-cover-extractions-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/does-cdcp-cover-extractions-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/does-cdcp-cover-extractions-2026" />
+  </url>
+  <url>
     <loc>https://thevillagedentist.com/post/invisalign-and-composite-bonding-toronto</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/invisalign-and-composite-bonding-toronto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/invisalign-and-composite-bonding-toronto" />
   </url>
   <url>
-    <loc>https://thevillagedentist.com/post/pregnancy-and-dental-health</loc>
-    <lastmod>2026-03-22</lastmod>
+    <loc>https://thevillagedentist.com/post/does-cdcp-cover-crowns-bridges-2026</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/does-cdcp-cover-crowns-bridges-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/does-cdcp-cover-crowns-bridges-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/pregnancy-and-dental-health</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/pregnancy-and-dental-health" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/pregnancy-and-dental-health" />
   </url>
   <url>
-    <loc>https://thevillagedentist.com/post/tiktok-dental-hacks-safe-or-dangerous</loc>
-    <lastmod>2026-02-15</lastmod>
+    <loc>https://thevillagedentist.com/post/does-cdcp-cover-fillings-2026</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/does-cdcp-cover-fillings-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/does-cdcp-cover-fillings-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/does-cdcp-cover-cleanings-exams-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/does-cdcp-cover-cleanings-exams-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/does-cdcp-cover-cleanings-exams-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/what-cdcp-actually-covers-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/what-cdcp-actually-covers-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/what-cdcp-actually-covers-2026" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/canadian-dental-care-plan-cdcp-2026-complete-guide</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/canadian-dental-care-plan-cdcp-2026-complete-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/canadian-dental-care-plan-cdcp-2026-complete-guide" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/tiktok-dental-hacks-safe-or-dangerous</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/tiktok-dental-hacks-safe-or-dangerous" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/tiktok-dental-hacks-safe-or-dangerous" />
   </url>
   <url>
-    <loc>https://thevillagedentist.com/post/water-flossers-vs-string-floss</loc>
-    <lastmod>2026-01-15</lastmod>
+    <loc>https://thevillagedentist.com/post/invisalign-clinical-techniques-attachments-ipr-staging</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/invisalign-clinical-techniques-attachments-ipr-staging" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/invisalign-clinical-techniques-attachments-ipr-staging" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/water-flossers-vs-string-floss</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/water-flossers-vs-string-floss" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/water-flossers-vs-string-floss" />
   </url>
   <url>
+    <loc>https://thevillagedentist.com/post/invisalign-vs-braces-toronto-comparison</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/invisalign-vs-braces-toronto-comparison" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/invisalign-vs-braces-toronto-comparison" />
+  </url>
+  <url>
     <loc>https://thevillagedentist.com/post/tooth-sensitivity-causes-treatment</loc>
-    <lastmod>2025-12-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/tooth-sensitivity-causes-treatment" />
@@ -101,7 +309,7 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/ohip-and-insurance</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/ohip-and-insurance" />
@@ -109,130 +317,130 @@
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/wisdom-teeth-removal-what-you-need-to-know</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/wisdom-teeth-removal-what-you-need-to-know" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/wisdom-teeth-removal-what-you-need-to-know" />
   </url>
   <url>
-    <loc>https://thevillagedentist.com/post/sleep-apnea</loc>
-    <lastmod>2025-09-15</lastmod>
+    <loc>https://thevillagedentist.com/post/invisalign-cost-toronto-price-guide</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/invisalign-cost-toronto-price-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/invisalign-cost-toronto-price-guide" />
+  </url>
+  <url>
+    <loc>https://thevillagedentist.com/post/sleep-apnea</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/sleep-apnea" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/sleep-apnea" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/natural-approach-dental-care</loc>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/natural-approach-dental-care" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/natural-approach-dental-care" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/yellow-teeth</loc>
-    <lastmod>2025-07-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/yellow-teeth" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/yellow-teeth" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/bad-breath-causes-remedies</loc>
-    <lastmod>2025-06-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/bad-breath-causes-remedies" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/bad-breath-causes-remedies" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/3-4-6-9-months-whats-magic-dental-cleaning-interval</loc>
-    <lastmod>2025-05-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/3-4-6-9-months-whats-magic-dental-cleaning-interval" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/3-4-6-9-months-whats-magic-dental-cleaning-interval" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/floss-or-toss</loc>
-    <lastmod>2025-04-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/floss-or-toss" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/floss-or-toss" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/toothbrushes-101</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/toothbrushes-101" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/toothbrushes-101" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/snacking-smart</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/snacking-smart" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/snacking-smart" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/breathing-for-life</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/breathing-for-life" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/breathing-for-life" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/beat-the-heart-attack-gene-the-link-between-your-mouth-and-your-heart</loc>
-    <lastmod>2024-12-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/beat-the-heart-attack-gene-the-link-between-your-mouth-and-your-heart" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/beat-the-heart-attack-gene-the-link-between-your-mouth-and-your-heart" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/radiation-exposure-from-dental-x-rays</loc>
-    <lastmod>2024-11-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/radiation-exposure-from-dental-x-rays" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/radiation-exposure-from-dental-x-rays" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/baby-oral-health-101</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/baby-oral-health-101" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/baby-oral-health-101" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/thumb-sucking-whats-the-big-deal</loc>
-    <lastmod>2024-09-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/thumb-sucking-whats-the-big-deal" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/thumb-sucking-whats-the-big-deal" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/post/cdcp</loc>
-    <lastmod>2024-05-01</lastmod>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/cdcp" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/cdcp" />
-  </url>
-  <url>
-    <loc>https://thevillagedentist.com/post/dental-anxiety-toronto-fear-of-dentist-guide</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/post/dental-anxiety-toronto-fear-of-dentist-guide" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/post/dental-anxiety-toronto-fear-of-dentist-guide" />
   </url>
 </urlset>
