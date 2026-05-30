@@ -1,0 +1,15 @@
+{
+  "name": "tvd-sitemap-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless-browser blog discovery + sitemap reconciliation for tvd-sitemap.",
+  "type": "module",
+  "scripts": {
+    "discover": "node discover-posts.mjs",
+    "reconcile": "node reconcile-sitemap.mjs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

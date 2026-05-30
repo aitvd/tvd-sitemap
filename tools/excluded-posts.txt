@@ -1,0 +1,9 @@
+# Blog post slugs deliberately excluded from sitemap.xml.
+# Discovery (tools/discover-posts.mjs) finds these live on the blog, but a human
+# decided they should NOT be indexed. List one slug per line; '#' starts a comment.
+# This is why auto-discovery opens a PR for review instead of auto-committing:
+# judgment calls like "is this still worth indexing" stay with a person.
+
+# Stale 2020 COVID-era posts — outdated, excluded during the 2026-05 SEO sprint.
+covid-19-ontario-pre-screening-questionnaire
+covid-19-we-are-coming-back-stronger

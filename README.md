@@ -9,14 +9,24 @@ The native GHL-served sitemap at `https://thevillagedentist.com/sitemap.xml` ret
 ## URLs
 
 - Live sitemap: `https://aitvd.github.io/tvd-sitemap/sitemap.xml`
-- 29 entries: homepage + 5 site pages + 23 blog posts (2 stale COVID-2020 posts excluded)
+- 55 entries: 6 site pages + 49 blog posts — all verified `200` under a Googlebot UA (2026-05-30)
+- Entries list **canonical URLs that return 200** (no redirecting URLs). The homepage is
+  listed as `/home` and services as `/our_services`, because the GHL site 301-redirects
+  `/` → `/home` and `/services` → `/our_services`.
+
+## SEO / AEO plan
+
+See [`PLAN.md`](./PLAN.md) for the full plan aligned to Google's
+[AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide),
+including the in-repo vs. GHL/GSC/GBP owner split and the operator checklist.
 
 ## How to update
 
-1. Edit `sitemap.xml`
-2. Commit + push to `main`
-3. GitHub Pages republishes within ~1 minute
-4. Google will recrawl on its own schedule, or you can request reindexing in GSC
+1. Edit `sitemap.xml` (list canonical URLs that return `200` — no redirecting URLs)
+2. Re-verify each `<loc>` returns `200` under a Googlebot UA
+3. Commit + push to `main`
+4. GitHub Pages republishes within ~1 minute
+5. Google will recrawl on its own schedule, or you can request reindexing in GSC
 
 ## GSC submission
 

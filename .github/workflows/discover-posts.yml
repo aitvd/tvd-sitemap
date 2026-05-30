@@ -1,0 +1,61 @@
+name: Discover blog posts
+
+# Ends manual sitemap curation. GHL's blog is a client-rendered SPA whose post
+# list comes from a private API, so this renders the page in headless Chromium,
+# clicks through pagination, and reconciles against sitemap.xml. Genuinely-new,
+# verified-200 posts are added; a human reviews the PR (judgment calls like the
+# excluded stale COVID posts stay with a person — see tools/excluded-posts.txt).
+on:
+  schedule:
+    - cron: '23 9 * * 1'   # Mondays 09:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Playwright + Chromium
+        working-directory: tools
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Discover live posts
+        working-directory: tools
+        run: node discover-posts.mjs > /tmp/discovered.json
+
+      - name: Reconcile sitemap
+        id: reconcile
+        run: node tools/reconcile-sitemap.mjs /tmp/discovered.json sitemap.xml
+
+      - name: Validate sitemap (XML + 200 sweep)
+        run: bash scripts/validate-sitemap.sh
+
+      - name: Open PR for new posts
+        if: steps.reconcile.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/sitemap-refresh
+          base: main
+          draft: true
+          commit-message: "Auto: add ${{ steps.reconcile.outputs.added }} new blog post(s) to sitemap"
+          title: "Auto: ${{ steps.reconcile.outputs.added }} new blog post(s) for sitemap review"
+          labels: automated, sitemap
+          body: |
+            Automated discovery found new published blog post(s) not yet in `sitemap.xml`.
+
+            - Added (verified HTTP 200 under a Googlebot UA): **${{ steps.reconcile.outputs.added }}**
+            - Stale entries flagged for manual review (not auto-removed): **${{ steps.reconcile.outputs.stale }}**
+
+            Review the diff and merge if correct. To intentionally exclude a post,
+            add its slug to `tools/excluded-posts.txt` instead of merging it.
