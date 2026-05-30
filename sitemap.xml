@@ -4,12 +4,12 @@
   <!-- Workaround: GHL native sitemap.xml is empty because per-asset "Show in Sitemap" toggles are iframe-locked. -->
   <!-- This static sitemap is submitted to GSC directly, bypassing GHL's empty /sitemap.xml. -->
   <url>
-    <loc>https://thevillagedentist.com/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://thevillagedentist.com/home</loc>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/home" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/home" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/about-us</loc>
@@ -20,12 +20,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/about-us" />
   </url>
   <url>
-    <loc>https://thevillagedentist.com/services</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://thevillagedentist.com/our_services</loc>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/services" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/services" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://thevillagedentist.com/our_services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thevillagedentist.com/our_services" />
   </url>
   <url>
     <loc>https://thevillagedentist.com/contact</loc>
