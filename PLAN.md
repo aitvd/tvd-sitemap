@@ -87,6 +87,14 @@ Split into three buckets so the plan never reads as "avoid helpful things":
 
 ---
 
+## Automation
+
+| What | Status | Notes |
+|---|---|---|
+| Sitemap CI validation | ✅ in repo | `.github/workflows/validate-sitemap.yml` runs `scripts/validate-sitemap.sh` on every sitemap change + weekly. Validates XML, sweeps all `<loc>`s for `200` (Googlebot UA), and on schedule confirms live Pages == repo. Catches the redirect/404/drift bug class automatically. |
+| Blog post auto-discovery | 🔎 proposed | GHL's `/blog` is JS-paginated — only ~6 of 49 posts appear in server HTML, so simple crawling can't enumerate them (this is also why the native sitemap is empty). Reliable discovery needs a headless browser (Playwright) to render + paginate, then open a PR with new posts. Architecturally significant (adds a browser dep + bot PRs) — scope before building. |
+| Retire the workaround | ⏳ watch | The weekly job can also alert if the native GHL `/sitemap.xml` ever stops being 0 bytes, signalling this repo is no longer needed. |
+
 ## How to update the sitemap
 
 1. Edit `sitemap.xml` (list **canonical URLs that return 200** — no redirecting URLs).

@@ -1,0 +1,40 @@
+name: Validate sitemap
+
+# Catches the bug class fixed in PR #1: an entry silently starting to 301/404,
+# XML breakage, or live/repo drift. Runs on every sitemap change and weekly so a
+# stale "all verified 200" claim can't go unnoticed.
+on:
+  pull_request:
+    paths:
+      - 'sitemap.xml'
+      - 'scripts/validate-sitemap.sh'
+      - '.github/workflows/validate-sitemap.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'sitemap.xml'
+  schedule:
+    - cron: '17 8 * * 1'   # Mondays 08:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate sitemap (XML + 200 sweep)
+        run: bash scripts/validate-sitemap.sh
+
+  validate-live:
+    # Only meaningful once changes are on main and Pages has deployed.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate + confirm live == repo
+        run: bash scripts/validate-sitemap.sh --check-live
